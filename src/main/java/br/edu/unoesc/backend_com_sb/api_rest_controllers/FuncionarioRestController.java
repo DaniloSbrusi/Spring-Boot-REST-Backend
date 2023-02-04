@@ -18,6 +18,9 @@ import br.edu.unoesc.backend_com_sb.model.Funcionario;
 @RestController
 @RequestMapping(value = "/api")
 public class FuncionarioRestController {
+	
+
+	
 	Funcionario p1 = new Funcionario(1L, "João", 2, new BigDecimal("1200.50"));
 	Funcionario p2 = new Funcionario(2L, "Maria", 3, new BigDecimal("1500.00"));
 	List<Funcionario> funcionarios;
