@@ -7,9 +7,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Produto {
+public class Funcionario {
 	private Long id;
-	private String descricao;
-	private Integer quantidade;
-	private BigDecimal valor;
+	private String nome;
+	private Integer dependentes;
+	private BigDecimal salario;
 }
